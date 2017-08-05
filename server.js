@@ -19,5 +19,5 @@ app.use(require('./routes'));
 
 
 
-app.set('port', (process.env.PORT || 3000));
-console.log('server running on port 3000');
+app.set('port', process.env.PORT || 3000);
+console.log('server running');
