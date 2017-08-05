@@ -1,7 +1,8 @@
 var mongoose = require('mongoose');
 
 
-mongooseURI = 'mongodb://localhost/flashcardsdb';
+mongooseURI = 'mongodb://mLabSandboxUser:123abc@ds111922.mlab.com:11922/heroku_6zsgjskh';
+//This URI for local testing (not deployed): 'mongodb://localhost/flashcardsdb';
 
 mongoose.connect(mongooseURI);
 
